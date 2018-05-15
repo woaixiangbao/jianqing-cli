@@ -1,0 +1,30 @@
+{
+  "name": "jianqing-cli",
+  "version": "1.0.0",
+  "description": "learn to make a cli",
+  "main": "command.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/woaixiangbao/jianqing-cli.git"
+  },
+  "keywords": [
+    "cli"
+  ],
+  "author": "jianqing",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/woaixiangbao/jianqing-cli/issues"
+  },
+  "homepage": "https://github.com/woaixiangbao/jianqing-cli#readme",
+  "bin": {
+    "cm-cli": "command.js"
+  },
+  "dependencies": {
+    "chalk": "^2.4.1",
+    "commander": "^2.15.1",
+    "node-cmd": "^3.0.0"
+  }
+}
